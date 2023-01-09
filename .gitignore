@@ -30,6 +30,7 @@ node_modules
 # https://github.com/github/gitignore/blob/main/community/Golang/Hugo.gitignore
 
 # Generated files by hugo
+_vendor
 /public/
 /resources/_gen/
 /assets/jsconfig.json
