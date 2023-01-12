@@ -1,0 +1,50 @@
+baseUrl: /
+languageCode: en-us
+paginate: 5
+
+module:
+  imports:
+    - path: github.com/panr/hugo-theme-hello-friend
+
+params:
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName: posts
+  # "dark" or "light"
+  defaultTheme: dark
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems: 2
+  # Enable to show reading time in minutes for posts
+  showReadingTime: true
+
+languages:
+  en:
+    title: Mike Schweitzer
+    subtitle: ''
+    keywords: ''
+    copyright: '© {year} Mike Schweitzer'
+    menuMore: Show more
+    writtenBy: Written by Mike
+    readMore: Read more
+    readOtherPosts: Read other posts
+    newerPosts: Newer posts
+    olderPosts: Older posts
+    dateFormatSingle: 2006-01-02
+    dateFormatList: 2006-01-02
+    
+    params:
+      logo:
+        logoText: Mike Schweitzer
+        logoHomeLink: /
+    #   or
+    #
+    #   path: /img/your-example-logo.svg
+    #   alt: Your example logo alt text
+    
+    menu:
+      main:
+      - identifier: about
+        name: About
+        url: /about
+      - identifier: showcase
+        name: Showcase
+        url: /showcase
