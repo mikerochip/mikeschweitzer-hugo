@@ -1,6 +1,7 @@
 baseUrl: /
 languageCode: en-us
 paginate: 5
+copyright: Mike Schweitzer
 
 module:
   imports:
