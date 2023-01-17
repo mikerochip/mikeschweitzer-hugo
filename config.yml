@@ -34,7 +34,6 @@ languages:
     params:
       logo:
         logoText: Mike Schweitzer
-        logoHomeLink: /
     #   or
     #
     #   path: /img/your-example-logo.svg
